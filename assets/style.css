@@ -1,15 +1,17 @@
 * {
-        background-color: blue;
+        background-color: lightseagreen;
 }
+
 /* header section */
 header {
         border: 1px solid green;
         display: flex;
         justify-content: space-between;
 }
+
 header h1 {
         border: 1px solid red;
-    
+
 }
 
 header nav {
@@ -17,7 +19,7 @@ header nav {
         width: 450px;
         display: flex;
         align-items: center;
-    
+
 }
 
 header nav ul {
@@ -31,10 +33,21 @@ header nav ul {
 header nav ul li {
         border: 5px solid red;
         list-style: none;
-    }
+}
+
 /* main section*/
 
 main {
         border: 5px solid mediumpurple;
         display: block;
 }
+
+section {
+
+        border: 5px solid orange;
+        background-color: seagreen;
+
+}
+
+
+/* Footer Section */
