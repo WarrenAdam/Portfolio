@@ -1,21 +1,21 @@
 * {
-        background-color: lightseagreen;
+        background-color: lightblue;
+        padding: 5px;
 }
 
 /* header section */
 header {
-        border: 1px solid green;
+        background-color:rgb(105, 177, 240);
         display: flex;
         justify-content: space-between;
 }
 
 header h1 {
-        border: 1px solid red;
+        border: 5px solid blue;
 
 }
 
 header nav {
-        border: 1px solid darkcyan;
         width: 450px;
         display: flex;
         align-items: center;
@@ -23,7 +23,6 @@ header nav {
 }
 
 header nav ul {
-        border: 1px solid brown;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -31,23 +30,33 @@ header nav ul {
 }
 
 header nav ul li {
-        border: 5px solid red;
+        border: 5px solid blue;
         list-style: none;
 }
 
 /* main section*/
 
 main {
-        border: 5px solid mediumpurple;
         display: block;
 }
 
-section {
+article {
+        border: 3px solid blue;
+}
 
-        border: 5px solid orange;
-        background-color: seagreen;
-
+h2 {
+        background-color: aquamarine;
+        font-size: large;
 }
 
 
+
 /* Footer Section */
+
+/* Add Media query*/
+@media screen and (max-width: 768px){
+        header {
+                background-color: red;
+        }
+        
+}
