@@ -5,7 +5,7 @@
 
 /* header section */
 header {
-        background-color:rgb(105, 177, 240);
+        background-color: rgb(105, 177, 240);
         display: flex;
         justify-content: space-between;
 }
@@ -39,6 +39,7 @@ header nav ul li {
 main {
         display: block;
 }
+
 /* Body section */
 
 article {
@@ -57,19 +58,16 @@ footer {
         border: 5px solid blue;
 }
 
-footer ul {
-        border: 5px solid green;
-}
-
 footer ul li {
         list-style: none;
 }
+
 /* Add Media query*/
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
         header {
                 background-color: lightseagreen;
         }
-        
+
 }
 
 @media screen and (max-width: 768px) {
