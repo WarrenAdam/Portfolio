@@ -2,7 +2,7 @@
 
 ##Description:
 
-In this challene, students were asked to create a professional portfolio. In this protfoli, student will be using various advanced CSS techniques to make the webpage responsive and to demonstrate the new skills learned for potential employers.
+In this challenge, students were asked to create a professional portfolio. In this protfoli, student will be using various advanced CSS techniques to make the webpage responsive and to demonstrate the new skills learned for potential employers.
 
 
 ##Acceptance Criteria:
@@ -21,7 +21,10 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-## Screenshots:
+## Screenshot:
+
+Screenshot 2023-05-11 at 2.49.05 PM.png
 
 ## Deployment link:
 
+https://warrenadam.github.io/Portfolio/
